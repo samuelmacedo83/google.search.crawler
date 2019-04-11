@@ -1,19 +1,22 @@
 Package: google.search.crawler
-Type: Package
+Type: Google Search Crawler
 Title: What the Package Does (Title Case)
 Version: 0.1.0
 Author: Samuel MAcedo
-Maintainer: The package maintainer <samuelmacedo@recife.ifpe.edu.br>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Authors@R: as.person(c(
+    "Samuel Macedo <samuelmacedo@recife.ifpe.edu.br> [aut, cre]", 
+    "Fellipe Gomes <gomes.fellipe1@gmail.com> [ctb]"
+  ))
+Description: This package provides a way to get links from the google search engine
+License: MIT License
 Encoding: UTF-8
 LazyData: true
 Imports: 
     magrittr,
     rvest,
     stringr,
-    xml2
+    xml2,
+    dplyr
 RoxygenNote: 6.1.1
 
 
